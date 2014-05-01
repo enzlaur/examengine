@@ -2,11 +2,56 @@ video#bgvid {
     position: fixed;    
     right: 0px;
     bottom: 0px;
-    min-height: 200%;
-    min-width: 200%;
+    min-height: 100%;
+    min-width: 100%;
     z-index: -100;
-    width: 100px;
-    height: 100px;
+    width: auto;
+    height: auto;
     background: url(/assets/video/moments2.mp4) no-repeat;
     background-size: cover;
+}
+
+#front-contain {
+    padding-top: 10%;
+    
+}
+
+#exam-name {
+    margin-top: 20px;
+    width: 30%;
+    border-radius: 4px;
+    border: 0px;
+}
+
+#exam-password {
+    width: 30%;
+    border-radius: 4px;
+    border: 0px;
+}
+
+#exam-login {
+    width: 16%;
+    height: 30px;
+    background: #017ebe;
+    color: white;
+    border-radius: 3px;
+    border: 0;
+}
+
+#topbar-back {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    background: #017ebe;
+    color: white;
+    padding-top: 10px;    
+    font-size: 18px;
+}
+
+#topbar-logo {
+    height: 35px;
+    position: relative;
+    bottom: 7px;
 }
