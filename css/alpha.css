@@ -7,7 +7,7 @@ video#bgvid {
     z-index: -100;
     width: auto;
     height: auto;
-    background: url(/assets/video/moments2.mp4) no-repeat;
+    background: url(/assets/video/moments2.jpg) no-repeat;
     background-size: cover;
 }
 
